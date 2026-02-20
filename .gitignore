@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Flask / App
+uploads/
+*.pcap
+*.pcapng
+*.cap
+
+# OS
+.DS_Store
