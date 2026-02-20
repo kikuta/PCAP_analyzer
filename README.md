@@ -13,8 +13,22 @@ PCAPファイルをWebインターフェース経由でアップロードし、�
 ### 主な機能
 * **パケット可視化**: PCAP / PCAPNG / CAPファイルを解析し、シーケンス図を自動生成
 * **AI解析サポート**: OpenAI API Keyを設定することで、通信内容の説明やセキュリティ警告の有無を確認可能
+* **検索機能**: 解析されたパケットデータから特定のプロトコルやキーワードでフィルタリングが可能
+* **マルチリンガルUI**: 日本語と英語の表示を切り替えて利用可能
 * **Web GUI**: Flaskによる直感的な操作画面
-* **パケット解析**: PyShark (tshark wrapper) を使用
+
+### Web UI の構成例
+* **ダッシュボード**: アップロードしたファイルの一覧と解析ステータス
+* **解析ビュー**: 左側にパケットリスト、右側にMermaid形式のシーケンス図を表示
+* **AI診断エリア**: 解析結果に基づいたAIのコメントとセキュリティ警告を表示
+
+<img width="800" alt="Flask web app" src="https://github.com/user-attachments/assets/bbd32a7c-af76-4e98-bda5-420fb1928b69" />
+
+<img width="800" alt="Flask web app" src="https://github.com/user-attachments/assets/16a24a0d-0877-46e2-abb4-bd2d2f403e9a" />
+
+<img width="800" alt="Flask web app" src="https://github.com/user-attachments/assets/256df95c-3ffe-4ac4-837f-ecf625e9b304" />
+
+<img width="800" alt="Flask web app" src="https://github.com/user-attachments/assets/3f6a4f17-5401-4c8f-899b-72e84fcde550" />
 
 ### 使い方
 1. **リポジトリをクローン:**
@@ -42,8 +56,14 @@ By configuring an OpenAI API Key, users can leverage AI to provide detailed pack
 ### Key Features
 * **Packet Visualization**: Automatically generates sequence diagrams from PCAP, PCAPNG, and CAP files.
 * **AI-Powered Analysis**: Integrates with OpenAI API to provide communication explanations and security risk assessments.
+* **Search Functionality**: Filter through analyzed packet data by protocol or keywords.
+* **Multilingual UI**: Easily toggle between Japanese and English interface.
 * **Web GUI**: User-friendly interface powered by Flask.
-* **Deep Inspection**: Uses PyShark (tshark wrapper) for packet analysis.
+
+### Web UI Example
+* **Dashboard**: List of uploaded files and their analysis status.
+* **Analysis View**: Packet list on the left, Mermaid sequence diagram on the right.
+* **AI Diagnosis Area**: AI-generated comments and security alerts based on analysis.
 
 ### Usage
 1. **Clone the repository:**
