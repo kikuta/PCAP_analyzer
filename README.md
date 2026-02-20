@@ -18,18 +18,18 @@ PCAPファイルをWebインターフェース経由でアップロードし、�
 
 ### 使い方
 1. **リポジトリをクローン:**
-   git clone [https://github.com/kikuta/PCAP_analyzer.git](https://github.com/kikuta/PCAP_analyzer.git)
-   cd PCAP_analyzer
+   `git clone https://github.com/kikuta/PCAP_analyzer.git`
+   `cd PCAP_analyzer`
 
 2. **依存関係のインストール:**
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
    *注: tshark がシステムにインストールされている必要があります。*
 
 3. **アプリケーションの起動:**
-   python app.py
+   `python app.py`
 
 4. **アクセス:**
-   ブラウザで [http://127.0.0.1:5000](http://127.0.0.1:5000) にアクセスしてください。
+   ブラウザで http://127.0.0.1:5000 にアクセスしてください。
 
 ---
 
@@ -47,18 +47,18 @@ By configuring an OpenAI API Key, users can leverage AI to provide detailed pack
 
 ### Usage
 1. **Clone the repository:**
-   git clone [https://github.com/kikuta/PCAP_analyzer.git](https://github.com/kikuta/PCAP_analyzer.git)
-   cd PCAP_analyzer
+   `git clone https://github.com/kikuta/PCAP_analyzer.git`
+   `cd PCAP_analyzer`
 
 2. **Install dependencies:**
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
    *Note: Ensure tshark is installed on your system.*
 
 3. **Run the application:**
-   python app.py
+   `python app.py`
 
 4. **Access:**
-   Open your browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000).
+   Open your browser and navigate to http://127.0.0.1:5000.
 
 ---
 
